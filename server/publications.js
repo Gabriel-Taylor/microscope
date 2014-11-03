@@ -1,3 +1,3 @@
-/**
- * Created by dev on 30/10/2014.
- */
+Meteor.publish('posts', function() {
+    return Posts.find();
+});
